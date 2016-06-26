@@ -691,7 +691,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #cc2900;
+	background: #1f1f1f;
 	color: #FFFFFF;
 }
 .button.button-primary:hover,
@@ -705,7 +705,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #1f1f1f;
+	background: #cc2900;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -1428,9 +1428,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 #resume .timeline-header {
 	float: left;
-	width: 35%;
+	width: 40%;
 	padding-right: 90px;
-	text-align: right;
+	text-align: center;
 }
 #resume .timeline-header h3 {
 	margin-bottom: 0;
