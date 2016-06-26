@@ -285,6 +285,7 @@
 	               $('#message-warning').hide();
 	               $('#contactForm').fadeOut();
 	               $('#message-success').fadeIn();   
+	               $.magnificPopup.close();
 	            }
 	            // There was an error
 	            else {
@@ -299,7 +300,6 @@
 		      	sLoader.fadeOut(); 
 		      	$('#message-warning').html("Something went wrong. Please try again.");
 		         $('#message-warning').fadeIn();
-
 		      }
 
 	      });     		
