@@ -2079,7 +2079,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 #contactForm input[type="email"],
 #contactForm textarea {
 	width: 100%;
-	color: rgba(255, 255, 255, 0.7);
 	margin-bottom: 0;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -2094,7 +2093,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 #contactForm input[type="password"]:focus,
 #contactForm input[type="email"]:focus {
 	border-color: #8B2252;
-	color: #FFFFFF;
+	color: #800080;
 }
 #contactForm textarea {
 	min-height: 20rem;
@@ -2102,7 +2101,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 #contactForm textarea:focus {
 	border-color: #8B2252;
-	color: #FFFFFF;
+	color: #800080;
 }
 #contactForm button.submitform {
 	font-size: 1.5rem;
