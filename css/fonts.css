@@ -45,20 +45,6 @@
 }
 
 /*
-*Lato
-================================================================================ */
-@font-face {
-    font-family: 'lato-black';
-    src: url('../fonts/lato/Lato-Black.eot');
-    src: url('../fonts/poppins/Lato-Black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/poppins/Lato-Black.woff2') format('woff2'),
-         url('../fonts/poppins/Lato-Black.woff') format('woff'),
-         url('../fonts/poppins/Lato-Black.ttf') format('truetype'),
-         url('../fonts/poppins/Lato-Black.svg#latoblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-/*
  * Poppins 
 ================================================================================ */
 @font-face {
