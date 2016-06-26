@@ -2017,23 +2017,23 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 /* contact form */
 .contact-form {
-	max-width: 740px;
+	max-width: 1000px;
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(0, 0, 0, 0.3);
 }
 .contact-form :-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 18- */
+	color: rgba(0, 0, 0, 0.3);  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 19+ */
+	color: rgba(0, 0, 0, 0.3);  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(0, 0, 0, 0.3);
 }
 .contact-form .placeholder {
-	color: rgba(255, 255, 255, 0.3) !important;
+	color: rgba(0, 0, 0, 0.3) !important;
 }
 
 #contact form {
@@ -2074,37 +2074,37 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	border-right: 5px solid #8B2252;
 	content: "";
 }
-#contact input[type="text"],
-#contact input[type="password"],
-#contact input[type="email"],
-#contact textarea {
+#contactForm input[type="text"],
+#contactForm input[type="password"],
+#contactForm input[type="email"],
+#contactForm textarea {
 	width: 100%;
 	color: rgba(255, 255, 255, 0.7);
 	margin-bottom: 0;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-#contact input[type="text"],
-#contact input[type="password"],
-#contact input[type="email"] {
+#contactForm input[type="text"],
+#contactForm input[type="password"],
+#contactForm input[type="email"] {
 	height: 6.6rem;
 	padding: 1.8rem 2rem;
 }
-#contact input[type="text"]:focus,
-#contact input[type="password"]:focus,
-#contact input[type="email"]:focus {
+#contactForm input[type="text"]:focus,
+#contactForm input[type="password"]:focus,
+#contactForm input[type="email"]:focus {
 	border-color: #8B2252;
 	color: #FFFFFF;
 }
-#contact textarea {
+#contactForm textarea {
 	min-height: 20rem;
 	padding: 1.8rem 2rem;
 }
-#contact textarea:focus {
+#contactForm textarea:focus {
 	border-color: #8B2252;
 	color: #FFFFFF;
 }
-#contact button.submitform {
+#contactForm button.submitform {
 	font-size: 1.5rem;
 	display: block;
 	letter-spacing: .2rem;
@@ -2116,7 +2116,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #8B2252;
 	color: #FFFFFF;
 }
-#contact button.submitform:hover, #contact button.submitform:focus {
+#contactForm button.submitform:hover, #contactForm button.submitform:focus {
 	background: #ca00cc;
 }
 #message-warning, #message-success {
