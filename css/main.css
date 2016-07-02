@@ -1266,6 +1266,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding-left: 13rem;
 }
 
+.meta-data {
+	font-size: 0rem;
+}
+
 .about-content {
 	position: relative;
 	text-align: left;
